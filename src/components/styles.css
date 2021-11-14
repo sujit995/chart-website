@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  box-shadow: 0 5px 10px #e1e5ee;
+  background-color: white;
+  overflow: hidden;
+}
+thead {
+  box-shadow: 0 5px 10px #e1e5ee;
+}
+th {
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 0.7rem;
+  font-weight: 900;
+  background-color: rgb(68, 107, 236);
+  color: #fff;
+}
+
+td {
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.heading {
+  color: #000;
+}
+.heading h6 {
+  font-size: 1.5rem;
+}
+.btn-container {
+  margin-top: 3rem;
+}
+.btn {
+  width: 6rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: rgb(61, 87, 156);
+  color: #000;
+  font-family: Nunito, sans-serif;
+}
+
+@media screen and (max-width: 360px) {
+  .table-container {
+    max-width: 20%;
+  }
+}
