@@ -11,7 +11,7 @@ function GraphChart() {
 
 
     const countryDetail = async () => {
-        axios.get("http://localhost:3000/medals")
+        axios.get("https://sujit995.github.io/jsonapi/db.json")
 
             .then(response => {
                 setGetData(response.data);
@@ -24,7 +24,7 @@ function GraphChart() {
 
 
     const selectChart = () => {
-        axios.get(`http://localhost:3000/medals`)
+        axios.get(`https://sujit995.github.io/jsonapi/db.json`)
             .then(res => {
                 const countryData = res.data;
                 let playerId = [];
