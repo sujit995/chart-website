@@ -26,7 +26,9 @@ td {
   padding: 1rem 2rem;
   text-align: center;
 }
-
+h4 {
+  color: black;
+}
 .heading {
   color: #000;
 }
