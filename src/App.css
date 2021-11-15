@@ -22,3 +22,8 @@ body {
   display: flex;
   flex-direction: row;
 }
+@media screen and (max-width: 480px) {
+  .details {
+    display: none;
+  }
+}
